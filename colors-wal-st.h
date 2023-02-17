@@ -30,6 +30,8 @@ const char *colorname[] = {
  * foreground, background, cursor */
 
  unsigned int defaultbg = 256;
+ static char pseudotransparency = 0;
+ static char *bgfile = "./eberhard-grossgasteiger-cs0sK0gzqCU-unsplash.jpg";
  unsigned int defaultfg = 257;
  unsigned int defaultcs = 258;
  unsigned int defaultrcs= 258;
