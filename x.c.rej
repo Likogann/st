@@ -1,0 +1,10 @@
+--- x.c
++++ x.c
+@@ -253,6 +253,7 @@ static char *opt_name  = NULL;
+ static char *opt_title = NULL;
+ 
+ static int oldbutton = 3; /* button event on startup: 3 = release */
++static int cursorblinks = 0;
+ 
+ void
+ clipcopy(const Arg *dummy)
